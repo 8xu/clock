@@ -35,3 +35,13 @@ body {
     align-items: center;
     justify-content: center;
 }
+
+a:any-link {
+    text-decoration: none;
+    color: #FBB02D;
+    font-weight: 900;
+}
+
+#name {
+    font-weight: 800;
+}

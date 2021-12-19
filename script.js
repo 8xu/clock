@@ -35,3 +35,11 @@ function hideAll() {
 hideButton.addEventListener('click', hideAll);
 
 setInterval(updateClock, 150);
+
+GITHUB_REPOSITORY_URL = 'https://github.com/8xu/clock';
+GITHUB_USER = GITHUB_REPOSITORY_URL.split('/')[3];
+const githubUrl = document.querySelector('#github');
+const githubName = document.querySelector('#name');
+githubName.innerHTML = GITHUB_USER;
+githubUrl.href = GITHUB_REPOSITORY_URL;
+github.target = '_blank';
