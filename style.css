@@ -18,12 +18,6 @@ body {
     margin: 15px;
     border: 2px solid white;
     border-radius: 25px;
-    text-align: center;
-}
-
-#input button {
-    margin: 10px;
-    float: right;
 }
 
 #clock {
@@ -44,4 +38,17 @@ a:any-link {
 
 #name {
     font-weight: 800;
+}
+
+#input > label {
+    text-align: center;
+}
+
+#input button {
+    margin: 10px;
+    float: right;
+}
+
+img.colorpick-eyedropper-input-trigger {
+    display: none;
 }
